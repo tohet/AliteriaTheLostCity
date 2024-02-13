@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Ground
+  - Tiles
+  - NPC
+  - GameManager
+  - path_spawnpoint
+  - path_template
+  - path_layout
+  - path_button
+  - platformer_camera
+  - pause_menu
+  - usable_object
+  - dialogue_menu
+  - dialogue_button
+  - inventory_holder
+  - turn_manager
+  - character_sensor
+  - healthbar
+  - chest
+  - chest_holder
+  - chest_holder_OBJ
+  - spearman_health_display
+  - stat_display
+  - use_cam
+  - mental_chooser
+  - level_exit
+  - battle_tutorial
+  - hinie_health_display
+  - tutorial_window
+  - tutorial_arrow
+  - armor_display
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Switches
+  - NPC
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,400 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdf02d848976f641bfa615f51198c0c, type: 3}
+  m_Name: 1.39 - Horner Chest
+  m_EditorClassIdentifier: 
+  dialogue_lines:
+  - 'As you roam the wastelands, you notice a lizard-like guy with two curved horns
+    on his head sitting on the sand. He firmly holds onto a vividly decorated box.
+    He seems to be rather tired. '
+  - '[HORNED GUY] Oh, man... That thing there is hefty... '
+  - '[HORNED GUY] This bad boy right here is a chest I found under the floorboards
+    of some abandoned house. Must be some valuable stuff, if it was hidden so well.'
+  - '[HORNED GUY] No idea, man. It can''t be opened without a key. I tried poking
+    the lock with a stick. No luck as you can see. '
+  - '[HORNED GUY] Nah, man! What if I actually find a key to open it? If you think
+    about it, with how old these locks are you might as well use any key. You just
+    stick it in there, tinker with it a bit and BOOM! '
+  - '[HORNED GUY] Hey, I''ve got an idea. I watch the chest and you look for the key.
+    We''ll share whatever''s inside the bloody thing. What do you think?'
+  - '[HORNED GUY] Okay then. Good luck finding it! '
+  - '[HORNED GUY] You do? Gimme!'
+  - '[HORNED GUY] Hey, brother! Found a key yet?'
+  - "[HORNED GUY] I see. You can usually find them in old chests.\nKinda ironic, though.
+    \nAnyway. Good luck then!"
+  - 'The guy shakes the key furiously inside a keyhole. Eventually a soft *click*
+    reaches your ear. The key bpeaks in half as soon as he lifts a heavy lid. '
+  - '[HORNED GUY] Oh... It''s a helmet...'
+  - 'He reaches for his horns and touches them as if making sure that they are indeed
+    still on his head. '
+  - '[HORNED GUY] Well, I surely have no use for that thing. And there''s nothing
+    else inside there... '
+  - '[HORNED GUY] *sigh* Anyway, you guys need it!'
+  - '[HINIE] I do!'
+  - '[HORNED GUY] Okay then. Here you go, sister!
+
+    +Rusty Helmet '
+  - '[HORNED GUY] Hey, man! I''ve decided to keep the box. Got kinda used to it. '
+  answer_options:
+  - answers:
+    - corelated_dialogue_line_ID: 0
+      answer_text: Continue
+      next_line_index: 1
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 1
+      answer_text: '"What''s this?"'
+      next_line_index: 2
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 2
+      answer_text: '"What''s inside?"'
+      next_line_index: 3
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 3
+      answer_text: '"Leave it maybe?"'
+      next_line_index: 4
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 4
+      answer_text: Continue
+      next_line_index: 5
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 5
+      answer_text: '"Deal"'
+      next_line_index: 6
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 5
+      answer_text: '"I already have it"'
+      next_line_index: 7
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 12
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 8
+      answer_text: '"Nah"'
+      next_line_index: 9
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 8
+      answer_text: '"Yeah, I have one"'
+      next_line_index: 7
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 12
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 7
+      answer_text: Continue
+      next_line_index: 10
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 1
+      answ_item_to_interact: {fileID: 11400000, guid: 4a432c4e03b5ecf4ca848160962bb873,
+        type: 2}
+      answ_added_or_removed_item_amount: -1
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 10
+      answer_text: Continue
+      next_line_index: 11
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 11
+      answer_text: '"Oh..."'
+      next_line_index: 12
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 12
+      answer_text: Continue
+      next_line_index: 13
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 13
+      answer_text: Continue
+      next_line_index: 14
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 14
+      answer_text: '"I don''t"'
+      next_line_index: 15
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 15
+      answer_text: Take it
+      next_line_index: 16
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - Cylinder (1)
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 1
+      answ_item_to_interact: {fileID: 11400000, guid: 905045875eb02a14c885896f89393cdf,
+        type: 2}
+      answ_added_or_removed_item_amount: 1
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e5aa7f83d9f81941888392e6afbb570, type: 3}
+  m_Name: Skin Hardener
+  m_EditorClassIdentifier: 
+  ui_display: {fileID: 7771185243529891863, guid: d07b803c54ae9fb4ebfc1e8a13b12f4c,
+    type: 3}
+  stackable: 1
+  is_used_in_battle: 0
+  is_used_in_explore: 0
+  type: 1
+  discription: 'In Explore Mode:
+
+    +30 temporary DEF to both heroes
+
+    (You have time to share)
+
+    In Battle Mode:
+
+    +60 temporary DEF to one hero'
+  data:
+    name: 
+    id: 11
+    buffs: []
+    object_mental_act: {fileID: 0}
+  heal_value: 0
+  resote_AP_value: 0

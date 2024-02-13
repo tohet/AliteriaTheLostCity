@@ -1,0 +1,314 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdf02d848976f641bfa615f51198c0c, type: 3}
+  m_Name: 1.38 - Friendly Ballcrab
+  m_EditorClassIdentifier: 
+  dialogue_lines:
+  - '[HINIE] Hey, dude, look! This one here is not hostile. A smart little guy, too.'
+  - '[HINIE] It has a broken claw and what seems to have just enough intelligence
+    not to attack me in such state.'
+  - '[HINIE] I''ve heard that these guys can actually be befrended if you show them
+    that you mean no harm. Maybe if we patch em up, he''ll get to help us in the future. '
+  - '[HINIE] I don''t know. He kinda reminds me of you. Just as clueless and lost. '
+  - '[HINIE] Two health potions should do the trick. '
+  - '[HINIE] Darn. I''m sorry, little buddy. We''ll heal you right up if we meet again.
+    You just keep out of trouble, okay?'
+  - '[HINIE] Hey, look it''s the same crab from before! '
+  - 'With a couple of swift moves Hinie covers the crab''s wounds with bandages soaked
+    in health mixture. The little creature shakes its body a couple of times and sits
+    down in front of you two. '
+  - '[HINIE] Well, something tells me this little buddy will help us quite a bit out
+    in the desert. '
+  - '[HINIE] Hey. look! It''s our little friend from before. Oh, what do you got for
+    us, buddy?'
+  - 'The crab holds a potion in its little jaws. The creature spits it right in your
+    hand.
+
+    [+1 DEF Potion]'
+  answer_options:
+  - answers:
+    - corelated_dialogue_line_ID: 0
+      answer_text: '"Why''s he smart?"'
+      next_line_index: 1
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 1
+      answer_text: '"Yeah, that''s smart"'
+      next_line_index: 2
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 2
+      answer_text: '"Why care about him?"'
+      next_line_index: 3
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 0
+      answer_text: '"What do we need?"'
+      next_line_index: 4
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 3
+      answer_text: '"Okay then..."'
+      next_line_index: 2
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 4
+      answer_text: '"Here you go!"'
+      next_line_index: 7
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - crab
+      needed_item_ID: 5
+      needed_item_ammount: 2
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 0
+      answer_text: '"Don''t have em..."'
+      next_line_index: 5
+      path_proceed: 0
+      opens_exit: 1
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 7
+      answer_text: Continue
+      next_line_index: 8
+      path_proceed: 0
+      opens_exit: 1
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - crab
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 1
+      answ_item_to_interact: {fileID: 11400000, guid: f079989863141fa408ed595fd1822224,
+        type: 2}
+      answ_added_or_removed_item_amount: -2
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 6
+      answer_text: '"Here are the potions"'
+      next_line_index: 7
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 5
+      needed_item_ammount: 2
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 0
+      answer_text: '"Still got nothing..."'
+      next_line_index: 5
+      path_proceed: 0
+      opens_exit: 1
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 9
+      answer_text: What's he got?
+      next_line_index: 10
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 10
+      answer_text: Catch it
+      next_line_index: 0
+      path_proceed: 0
+      opens_exit: 1
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 1
+      answ_item_to_interact: {fileID: 11400000, guid: f28f7b9feb4fb4144aec6a2dc8f4759e,
+        type: 2}
+      answ_added_or_removed_item_amount: 1
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 1

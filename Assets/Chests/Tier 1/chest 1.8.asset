@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 170aa6aad20c2594cae2b76fbf42b39c, type: 3}
+  m_Name: chest 1.8
+  m_EditorClassIdentifier: 
+  save_path: /chest1
+  dataBase: {fileID: 11400000, guid: 95b147a7c85b0f04e968239d4e521d8e, type: 2}
+  mentalDataBase: {fileID: 11400000, guid: 0eb69e87f5c2ef64babdbfbc98ae6304, type: 2}
+  type: 3
+  usables_inventory: {fileID: 11400000, guid: 03f5ea4b44f158b40b93448a56691977, type: 2}
+  item_to_add_from_editor: {fileID: 11400000, guid: 4a432c4e03b5ecf4ca848160962bb873,
+    type: 2}
+  container:
+    slots:
+    - allowed_items: 
+      item:
+        name: 
+        id: 12
+        buffs: []
+        object_mental_act: {fileID: 0}
+      slot_mental_act: {fileID: 0}
+      ammount: 1
+    - allowed_items: 
+      item:
+        name: 
+        id: -1
+        buffs: []
+        object_mental_act: {fileID: 0}
+      slot_mental_act: {fileID: 0}
+      ammount: 0
+    - allowed_items: 
+      item:
+        name: 
+        id: -1
+        buffs: []
+        object_mental_act: {fileID: 0}
+      slot_mental_act: {fileID: 0}
+      ammount: 0
+    - allowed_items: 
+      item:
+        name: 
+        id: -1
+        buffs: []
+        object_mental_act: {fileID: 0}
+      slot_mental_act: {fileID: 0}
+      ammount: 0
+    - allowed_items: 
+      item:
+        name: 
+        id: -1
+        buffs: []
+        object_mental_act: {fileID: 0}
+      slot_mental_act: {fileID: 0}
+      ammount: 0
+    - allowed_items: 
+      item:
+        name: 
+        id: -1
+        buffs: []
+        object_mental_act: {fileID: 0}
+      slot_mental_act: {fileID: 0}
+      ammount: 0

@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/intro.unity
+    guid: 6fa2c9d4677b70945b9a0bcfa982aa0d
+  - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/RPG2.unity
+    guid: fd8212c7e1d1b3e42b1c6a5bedf8fd81
+  - enabled: 1
+    path: Assets/Scenes/outro.unity
+    guid: fb178df99094f164695e6f10990eb573
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.1 - Get Up/1.1 - Get Up.unity
+    guid: d3f0fdf6934932a4fb070e499aaba3a9
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.2 - First Crab/1.2 - First Crab.unity
+    guid: 6bcc61c363fcae3498eca27b7d9ea663
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.2 - First Crab/1.2.1 - First Crab - Fight.unity
+    guid: 2113c9c623cb63e489fdea37e1377d9a
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.3 - Hinie/1.3 - Hinie.unity
+    guid: 584154c566d2fcd4482332a0fffd23c6
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.3 - Hinie/1.3.1 - Hinie.unity
+    guid: 8eebe6de90d9da3478be6b211d25250a
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.5 - Sand Pillars/1.5 - Sand Pillars.unity
+    guid: 8ae498e7bc742be4a961fc0d7a731339
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.6 - Sky Whales/1.6 - Sky Whales.unity
+    guid: 034b26903c6854a45a510e611656d3b0
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.7 - Broken Tower/1.7 - Broken Tower.unity
+    guid: 61547e04701f4ba43bb03084c30d228a
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.8 - Ballcrab Nest/1.8 - Ballcrab Nest.unity
+    guid: 22d7716d988963844b25cf16f0335953
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.9 - Whalers/1.9 - Whalers.unity
+    guid: 78a20819aa7dd934ba2a4ab69d1a91c3
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.14 - Sniper Nest/1.14  -  Sniper Nest.unity
+    guid: 5241b99429ba8e94e933edb036d603e3
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.14A - Sniper Nest/1.14A - Sniper Nest.unity
+    guid: 4ca138dfaeb83954989f7285951a7104
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.15 - Village/1.15 -Village.unity
+    guid: 33d6dab66e85622468335f294006e072
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.16 - Ballcrab Pit/1.16 - Ballcrab Pit.unity
+    guid: bcb48281e2bf3ad489148a5420a85b5b
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.16 - Ballcrab Pit/1.16.1 - Ballcrab Pit.unity
+    guid: a4f29997ac6408d4d9d15db775d8de48
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.24 - Stranger (Thief)/1.24 - Stranger (Thief).unity
+    guid: 45537bc533298004d9b7f781cfe54ea3
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.25 - Stranger (Killer)/1.25 - Stranger (Killer).unity
+    guid: b95f259ba68bb9e4d90e76f807fddcb8
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.26 - Stranger (Healer)/1.26 - Stranger (Healer).unity
+    guid: 2aa7fac0d9d492c4fbd5ee6daa588d76
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.29 - Three Ballcrabs.unity
+    guid: 81c3ad58de7fd0640965c320c5f6bf9d
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.31 - Altar Sandstorm/1.31 - Altar Sandstorm.unity
+    guid: 7cd9c4e28c3fe904eb2b7d5f9f44faea
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.32 - Harest/1.32 - Harest.unity
+    guid: 7536c1e7737e4fa408b97f64ae781f71
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.36 - Rake/1.36 - Rake.unity
+    guid: ab384c40e5b12e54bb46b0569dc9906d
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.37 - Killer Rake/1.37 - Killer Rake.unity
+    guid: 99a664197ea43284aa6d713ea0b08d29
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.38 - Friendly Ballcrab/1.38 - Friendly Ballcrab.unity
+    guid: d0ed108af7f590245b86c5040103156e
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.39 - Horner Chest/1.39 - Horner Chest.unity
+    guid: fe84325e382db9542a76befabfd7507a
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.41 - Knee Buster/1.41 - Knee Buster.unity
+    guid: afd0dd5108605e74380f4cb255d04a8a
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.44 - Oasis/1.44 - Oasis.unity
+    guid: 62c5c52922ee74c49b47829a75dfa44b
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.47 - Mystery Fruit/1.47 - Mystery Fruit.unity
+    guid: ad04b9ef56d83cb44b3d615dc9db969a
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.50 - Sniper/1.50 - Sniper.unity
+    guid: c8af182fb05c3204c9f9fea4edf4e743
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.51 - Training Poligon/1.51 - Training Poligon.unity
+    guid: fd95dfbd7fc522b43a37f55d47f5e99d
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.52 - Chest 1/1.52 - Chest 1.unity
+    guid: ed719aa990858b749aa03942afe8f8a1
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.53 -Chest 2/1.53 - Chest 2.unity
+    guid: 7b4dd1c5e058dab47a075f98318e080e
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.54 - Chest 3/1.54 - Chest 3.unity
+    guid: 9c276fa317c50ba4694576869d03716f
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.55 - Gartek Statue/1.55 - Gartek Statue.unity
+    guid: fba0d513f1eae4c469b4b12ec2168bec
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.56 - First Cracker/1.56 - First Cracker.unity
+    guid: a6731cfe72434c246999653b72e06187
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.56 - First Cracker/1.56.1 - First Cracker.unity
+    guid: f4672a36d9d729a49b36e701961c1251
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.57 - Boss 1/1.57 - Boss 1.unity
+    guid: df7c9322ffebe9c438458e51ffdbe407
+  - enabled: 1
+    path: Assets/Scenes/ExploreLevels/1.57 - Boss 1/R1.57.1 - Boss 1.unity
+    guid: e59912a5e570d674c8befab07daf9588
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.1 Cavern.unity
+    guid: 9581efbea36ba964996148ff56d957ba
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.2 - Cracker Cave.unity
+    guid: 87566848be6855545afe3e3be88642cc
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.3 Pillars.unity
+    guid: 3db21e95c523f76428188297f4defd39
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.4 - Hanged Man.unity
+    guid: 20ce616440b7bee428ce8cd457d740b7
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.6 - Patrol.unity
+    guid: 571080ca9d99ec349a32adf21eb26521
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.7 Crabball Hut.unity
+    guid: 2ef6047ee603f664f9fea7580cfea8e8
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.8 Hut Ambush.unity
+    guid: fea46fa0a5e1eb14a83a8d2e631dd17c
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.10 Bridges.unity
+    guid: b21acc5df501dfa4aab84fbc5476b812
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.11 Lungs.unity
+    guid: 0a468bd3ec1c77f4a80517b53ad77a47
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.12 - Backup.unity
+    guid: 740b97d36fee6314886ff800daf2c185
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.13 Ambush.unity
+    guid: f82ba9e5e325db34a953b2f705f2a9e1
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.14 - Fault.unity
+    guid: 0bc45bb738bca6449902c3f628bc6bd1
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.17 Separation.unity
+    guid: 3fc622c7b7ade914eaae59cf29bb6854
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.18 Stuck.unity
+    guid: f4caefac1fc566f428a8fd0d0b452b5e
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.19 Cacoon.unity
+    guid: 2ff23ae154660d14dbf38a1246af164f
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.21 - Wait.unity
+    guid: 3ed40bd1bad6b6044ab82d4f2b80b9ae
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.23 - Crossed Tunnels.unity
+    guid: eea28d99d9800984c858bb4930c83033
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.24 - Ring.unity
+    guid: 319416b1f286dc947ba39ad21e22523a
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.26 - Animal Keeper.unity
+    guid: da88e6eac8069774fbe1cdabe56e3f56
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.28 - Tight Place.unity
+    guid: 3b2f0080df560ef4a81363509c59c62f
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.30 - Bad Situation.unity
+    guid: aa60bca755d836244a4d1a7069e0a452
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.31 - Tight Cave.unity
+    guid: 521e87c14fa48a340b2a24248753a6f0
+  - enabled: 1
+    path: Assets/Scenes/BattleLevels/R1.32 - Pet.unity
+    guid: 5c9a418a2b6ba1b4ca7f4056b378006a
+  - enabled: 1
+    path: Assets/Scenes/DayEnd_Desert/DayEnd_Desert.unity
+    guid: 0e64cd44b8ec7614a8fda58875d72a61
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  m_configObjects: {}

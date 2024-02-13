@@ -1,0 +1,1508 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdf02d848976f641bfa615f51198c0c, type: 3}
+  m_Name: WorldLines
+  m_EditorClassIdentifier: 
+  dialogue_lines:
+  - /UREACHABLE LINE/
+  - '[HINIE] World is a damn big thing. What part of it do you wanna talk about?'
+  - '[HINIE] Ah, these little guys. What do you want to know about them? '
+  - '[HINIE] Ballcrabs look kinda clumsy, but they''re surprisingly fast [4 AP]. And
+    these little claws chop fast [2 AP for each attack, 20 DMG per attack]. Usually
+    it takes two good hits to put a crab down [100 HP].'
+  - '[HINIE] Basically, you don''t want to just stand in front of one ad let it hit
+    you. And Alia forbid you from getting mauled by a bunch of them. Just run away,
+    if things get dicey.'
+  - '[HINIE] They are the desert''s most numerous inhabitants. Ballcrabs can dig themselves
+    deep into the sand, so they can hide from big predators. They''re omnivorous,
+    eating everything that comes around.'
+  - '[HINIE] These guys usuallly travel in flocks. They hide in their shells and just
+    roll down the dunes. It''s pretty funny when you get to see it. Just a bunch of
+    balls rolling around. '
+  - '[HINIE] Demons.'
+  - '[HINIE] Yeah, sure. So, basically, you and I were created by our father who stole
+    a bunch of souls from dead people. He put those souls into scarecrows and turned
+    them into living things. Us. '
+  - '[HINIE] Yeah, I know. It''s kinda difficult to grasp at first. But you''ll get
+    used to it. Just remember: dad''s name is Navius. So we''re all Navians. There
+    are many of our brothers and sisters out there.'
+  - '[HINIE] It''s good you''ve brought it up. You can never find potions on corpses.
+    That''s because people who have them usually just don''t die.'
+  - '[HINIE] Well, you can''t use a potion if it''s deep inside of your pocket. You
+    need to keep it close in case you need to drink it quick.
+
+    [Open Inventory and put a potion in an empty Use Slot, then press Use]'
+  - '[HINIE] The most common are red alcohol bottles, use them to heal [Heal 30 HP].
+    There are also yellow potions, these give you a lot of energy [+2 AP]. Blue potions
+    help you stand some heavy punches [+30 DEF]. '
+  - '[HINIE] Oh yeah, also. If we''re not in battle and you decide to drink a potion,
+    I''ll drink half of the bottle taking half of potion''s effects. It''s a common
+    rule to share all the food and drinks while traveling through desert. '
+  - '[HINIE] I''m not the one who came up with it. The rule came from some groups
+    of navians who got in and out of Aridian desert. Everyone of these guys told us
+    that you always gotta share everything if you want to survive. Some other grops
+    tried to avoid this rule. But they didn''t come back from the desert...'
+  - '[HINIE] Oh yeah. Armor is quite a scarce thing out here in the wasteland. You
+    should also be wondering why I''m taking all the helmets and boots we find...'
+  - '[HINIE] So, it''s a bit easier to explain with the helmets. Since you''re a hornfeld
+    you have four boney spikes sticking out of your skull. They look cool, but it''s
+    a huge pain in the ass to find you fitting headgear. Most helmets that we find
+    are not hornfeld-adapted, so it''s me who takes them. '
+  - '[HINIE] I, on the other hand, cannot wear any of these chestplates that we find.
+    There''s pretty much nothing of that sort that wouldn''t break my wings. So chestplates
+    are all yours. '
+  - "[HINIE] As for the boots, I'm pretty much dead as soon as some jerk grabs me
+    by a leg. Like, I can't even fly away at this point. So yeah, I'll have the boots.
+    \nAnd since you can deal with more upper body damage, you get the gloves so you
+    can defend yourself better. Hope it all makes sense."
+  - '[HINIE] Apart from just making you a little harder to kill [+DEF], armor found
+    in desert also deals with the intense heat of this place. I believe it''s the
+    fabric that reflects it somehow. Anyway, it allows for a little more comfort of
+    movement [+AP].'
+  - '[HINIE] That''s one sad topic. Humans used to rule over this entire world. They
+    created a lot of usefull stuff like tools, armor and weapons. All the buildings
+    that we stuble upon also were created by humans. There were other things like
+    religion, science...
+
+    Anyway, humans are mostly gone by now, it''s only us navians. '
+  - '[HINIE] If you pass by a human''s courpse, there''s always a good chance that
+    it will just stand up and attack you. Some of our psychics have actually detected
+    metnal activity in these dead guys and gals. So, that must mean that they''re
+    not so dead after all. '
+  - '[HINIE] Nobody really knows. At some point all of them were just gone. Like,
+    there''s absolutely no explanations in any of those ancient texts that we''ve
+    found. A whole civilization just gone in an instant.
+
+    Some of our brothers pointed out that there are a lot of burn marks on all of
+    humans'' buildings. But there''s nothing more than that at this point. '
+  - '[HINIE] Yeah. Take it any way you want. The point is, if it wasn''t for all the
+    looting, we would''ve been dead by now. '
+  - '[HINIE] I''m glad you want to talk about it. I don''t really know how our mind
+    works, but I''m not sure if you''re supposed to gain character traits everyday
+    like you do...'
+  - '[HINIE] Well, you see different sides of this world and form your relationships
+    with them. You see how me and your other siblings act, and you choose to act the
+    same or in a completely different way. I guess, that''s how it works. '
+  - '[HINIE] If you find out that you are an asshole and tell me about this, and the
+    next day you say the same exact thing, nothing really changes, as far as I know.
+
+    [Mentals and their effects don''t stack]'
+  - '[HINIE] Oh, you''d like to discuss some of them daddy issues, eh? No worries,
+    dude, we''ve all got them one way or another. So, what do you wanna know adout
+    the Big Man? '
+  - '[HINIE] As far as I know, he''s an alien who came from space some time ago. He
+    tried to rule over this world but found out that he''s not strong enough for this.
+    Eventually he just decided to create a bunch of us navians to enliven this deserted
+    planet.
+
+    He''s basically just a walking corpse, but he''s still extremely strong. '
+  - '[HINIE] He walks around the world creating us navians by mixing pure soul energy
+    with some shit and sticks. Some of our brothers once told me that he can also
+    somehow revive you using only your remains. I''m not to eager to see if it''s
+    true or not. '
+  - '[HINIE] Yeah, happened to me once. It was like 30 years ago, I guess. He seemed
+    to be quite a chill dude to me. I remember myself complaining to him about how
+    I was abused by the people at my campsite. He told me to leave them back then.
+    Well, took me some time to take his advice.'
+  - '[HINIE] Ooh, I like this topic. There are lots of good texts written about the
+    great Trio.
+
+    Who do you wanna know about? Alia the Almighty, Terus the Destroyer or Gartek
+    the Wise?'
+  - '[HINIE] Alia is the highest deity of our world. She rules over all the matter,
+    she is all the matter, to be more precise. The temperature of her body is beyond
+    our comprehension, it''s purest energy. The hottest lady around here, yeah. As
+    parts of her body cool down, they become gases, fluids and solid materials that
+    make up us and all around us. Alia''s holy shape is triangle. Her color is blue.'
+  - '[HINIE] Terus is the deity of all living creatures. He is one aressive bastard,
+    since life itself is a constant fight against the world, according to some ancient
+    texts. Terus is all about blood, sex, war and other things of that nature. He''s
+    cultists are all weirdos, I think. Terus'' holy shape is rhombus. His color is
+    red.'
+  - '[HINIE] Gartek is the deity of mind. He''s the highest patron of all scientists
+    and medics. He''s a bit of a trickster, too. There are a lot of fairy tales including
+    him as a guy who always makes fun of all the ignorant jerks. Ancient aliterians
+    used to love him a lot. I guess, he misses those times the most... Gartek''s holy
+    shape is circle. His color is green.'
+  - '[HINIE] Body-ge... Uh, don''t get me wrong, it''s a cool word, that you came
+    up with. But let''s keep it simple for now, okay? Body types. Or body shapes,
+    if you wish.
+
+    Navians and humans come in four total: ants, dragonflies, scarabs and hornfelds.'
+  - "[HINIE] Well, first, there are ants. These guys are the most basic ones out there.
+    Normal height, normal weight, just a bit of muscles here and there. Their skin
+    is usually flat gray, but it can get to some very exotic colors.\nNext there are
+    dragonflies. These guys are super thin with very long limbs. Their skin usually
+    has very pronounced green or yellow tones.\nScarabs are the big guys. The biggest
+    of 'em all. With thick bodies, thick and short limbs. Their skin is quite dark.
+    \nHornfelds... Well, they're ants, but with horns. The most vividly colored guys
+    on the whole Aliteria, though."
+  - '[HINIE] On your head you have four good reasons for me to tell you that you''re
+    a hornfeld. You''re pretty thin though. I don''t know if it''s because you''re
+    partially a dragonfly or because you barely get anything to eat.
+
+    As for myself I like to think that I''m a dragonfly, but my stupid brothers back
+    at the campsite used every opportunity to tell me that I''m too fat to be one.
+    But I am, anyway.'
+  answer_options:
+  - answers:
+    - corelated_dialogue_line_ID: 0
+      answer_text: Ballcrabs
+      next_line_index: 2
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 2
+      answer_text: Fighting them
+      next_line_index: 3
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 2
+      answer_text: What are they
+      next_line_index: 5
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 3
+      answer_text: Continue
+      next_line_index: 4
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 4
+      answer_text: Continue
+      next_line_index: 4
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 5
+      answer_text: Continue
+      next_line_index: 6
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 6
+      answer_text: Continue
+      next_line_index: 6
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 0
+      answer_text: Who are we?
+      next_line_index: 7
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 7
+      answer_text: Care to elaborate?
+      next_line_index: 8
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 7
+      answer_text: Nice!
+      next_line_index: 7
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 8
+      answer_text: Uhh...
+      next_line_index: 9
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 9
+      answer_text: Continue
+      next_line_index: 9
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 0
+      answer_text: Potions
+      next_line_index: 10
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 10
+      answer_text: How to use them?
+      next_line_index: 11
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 0
+      answer_text: Types of potions?
+      next_line_index: 12
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 11
+      answer_text: Continue
+      next_line_index: 13
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 12
+      answer_text: Continue
+      next_line_index: 13
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 13
+      answer_text: A rule?
+      next_line_index: 14
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 14
+      answer_text: Okay...
+      next_line_index: 14
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 0
+      answer_text: Armor
+      next_line_index: 15
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 15
+      answer_text: Well... Yeah, why are you taking boots and helmets?
+      next_line_index: 16
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 14
+      answer_text: What does armor do?
+      next_line_index: 19
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 16
+      answer_text: That sucks, but okay.
+      next_line_index: 17
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 17
+      answer_text: Fair enough
+      next_line_index: 18
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 18
+      answer_text: I guess.
+      next_line_index: 18
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 19
+      answer_text: Got it.
+      next_line_index: 19
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 0
+      answer_text: Humans
+      next_line_index: 20
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 20
+      answer_text: What do you mean by "mostly"?
+      next_line_index: 21
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 20
+      answer_text: 'What happened to them? '
+      next_line_index: 22
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 20
+      answer_text: So, we're just looting what's left of them?
+      next_line_index: 23
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 21
+      answer_text: Damn...
+      next_line_index: 21
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 22
+      answer_text: Weird...
+      next_line_index: 22
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 23
+      answer_text: Fair enough.
+      next_line_index: 23
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 0
+      answer_text: Character traits
+      next_line_index: 24
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 24
+      answer_text: How do I come up with new traits?
+      next_line_index: 25
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 24
+      answer_text: What if I choose one trait multiple times?
+      next_line_index: 26
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 25
+      answer_text: Makes sense
+      next_line_index: 25
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 26
+      answer_text: Got it
+      next_line_index: 26
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 0
+      answer_text: Navius
+      next_line_index: 27
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 27
+      answer_text: Who is he?
+      next_line_index: 28
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 27
+      answer_text: What does he do?
+      next_line_index: 29
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 27
+      answer_text: Have you ever met him?
+      next_line_index: 30
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 28
+      answer_text: Continue
+      next_line_index: 28
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 29
+      answer_text: Me neither
+      next_line_index: 29
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 30
+      answer_text: Yeah
+      next_line_index: 30
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 0
+      answer_text: Gods
+      next_line_index: 31
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 31
+      answer_text: Alia
+      next_line_index: 32
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 30
+      answer_text: Terus
+      next_line_index: 33
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 30
+      answer_text: Gartek
+      next_line_index: 34
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 32
+      answer_text: Continue
+      next_line_index: 32
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 33
+      answer_text: Continue
+      next_line_index: 33
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 34
+      answer_text: Continue
+      next_line_index: 34
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 0
+      answer_text: Bodygenesis
+      next_line_index: 35
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 35
+      answer_text: Tell me more about body types
+      next_line_index: 36
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 35
+      answer_text: What are our body types?
+      next_line_index: 37
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 36
+      answer_text: Okay, got it
+      next_line_index: 36
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 37
+      answer_text: Okay
+      next_line_index: 37
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - return
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0

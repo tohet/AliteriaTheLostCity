@@ -1,0 +1,331 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdf02d848976f641bfa615f51198c0c, type: 3}
+  m_Name: 1.51 - Training Poligon
+  m_EditorClassIdentifier: 
+  dialogue_lines:
+  - '[HINIE] Dude, look! It''s a target range!'
+  - '[HINIE] It means I could practice my shooting a bit. I''m kinda nervous though,
+    so it probably won''t be any useful. '
+  - '[HINIE] I''m always afraid I''ll mess everything up. I''m really not good with
+    the bow, y''know. '
+  - '[HINIE] Yeah, okay. I''ll try. '
+  - After missing all of her shots and swearing profusely Hinie lets out a heavy sigh
+    and turns to you. "Okay, it's no use. Let's go". You walk away from the target
+    range.
+  - "[HINIE] If we find some alcohol, - something really heavy, - I might relax just
+    enough to stop worrying about failing. \n[5 Drygrower Juise Required]"
+  - '[HINIE] Oh, we do? Okay, lemme just take a sip real quick then. '
+  - After chugging down all five drygrower juise bottles and letting out a small hiccup
+    Hinie aims at the dummies in front of her and shoots a few arrows. All of them
+    hit.
+  - "[HINIE] Dude, *hiccup* I think I get it now. You just gotta stop thinking about
+    messing it up. *hiccup* And you won't. I'm the greatest, dude. \n[Hinie: +25 DMG]"
+  - A familiar target range. Nothing else you can do with it.
+  answer_options:
+  - answers:
+    - corelated_dialogue_line_ID: 0
+      answer_text: '"What does it mean?"'
+      next_line_index: 1
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 0
+      answer_text: '"Nah, let''s go"'
+      next_line_index: 0
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 1
+      answer_text: '"Nervous?"'
+      next_line_index: 2
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 2
+      answer_text: '"Try it anyway"'
+      next_line_index: 3
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 0
+      answer_text: '"How can I help?"'
+      next_line_index: 5
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 0
+      answer_text: '"Let''s go then"'
+      next_line_index: 0
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 3
+      answer_text: Continue
+      next_line_index: 4
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 4
+      answer_text: Okay then
+      next_line_index: 0
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 5
+      answer_text: '"We have alcohol"'
+      next_line_index: 6
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 9
+      needed_item_ammount: 5
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 5
+      answer_text: '"We''ll look for it"'
+      next_line_index: 0
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 6
+      answer_text: Give bottle
+      next_line_index: 7
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 1
+      answ_item_to_interact: {fileID: 11400000, guid: d0edfcbdd962b2940853d7e7d43d09ba,
+        type: 2}
+      answ_added_or_removed_item_amount: -5
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 7
+      answer_text: '"You go, girl!"'
+      next_line_index: 8
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 1
+      objects_launched_from_dialogue:
+      - hinie
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 8
+      answer_text: Nice
+      next_line_index: 0
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0

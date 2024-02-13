@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdf02d848976f641bfa615f51198c0c, type: 3}
+  m_Name: 1.2 - First Crab
+  m_EditorClassIdentifier: 
+  dialogue_lines:
+  - A huge round creature rips its claws into a dried-out corpse slowly eating it
+    away.
+  - As you approach it stops munching on cadaver's insides and turns your way.
+  - With an earth shattering hiss it approaches you.
+  answer_options:
+  - answers:
+    - corelated_dialogue_line_ID: 0
+      answer_text: Eww...
+      next_line_index: 1
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      level_name: 
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 1
+      answer_text: Is this... thing for real now?
+      next_line_index: 2
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      level_name: 
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 0
+      answer_text: Bring it on!
+      next_line_index: 2
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      level_name: 
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 2
+      answer_text: Okay, I'll brace myself.
+      next_line_index: 0
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 1
+      level_name: 1.2.1 - First Crab - Fight
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 0
+      answer_text: BRING IT ON!!!
+      next_line_index: 0
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 1
+      level_name: 1.2.1 - First Crab - Fight
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0

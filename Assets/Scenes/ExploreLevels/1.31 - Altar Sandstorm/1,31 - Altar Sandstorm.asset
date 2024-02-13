@@ -1,0 +1,205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdf02d848976f641bfa615f51198c0c, type: 3}
+  m_Name: 1,31 - Altar Sandstorm
+  m_EditorClassIdentifier: 
+  dialogue_lines:
+  - 'As devastating sandstorm makes you lose any sense of direction, you stumble upon
+    an altar preserved in perfect condition. '
+  - It stands above the entirety of the world around it, yourself included.
+  - Throug unforgiving waves of time it carries its secrets.
+  - It casts a very pronounced and straight shadow, there are barely any cracks, nooks
+    or cranies on the surface of its body. It gives you a feeling of severe intimidation.
+  - The altar doesn't answer.
+  - 'The altar seems satisfied. The sandstorm eases. '
+  - 'It longs for a sacrifice. '
+  - '[NERD] This is an altar of Alia The Almighty, you can tell it by the triangle.
+    The only thing Alia really wants of people is loyalty. You can prove it either
+    by doing stupid sacrifices or simply by declaring it. So you pray for a bit. '
+  - 'Your fist crunches, but suddenly you feel like you know where to go. '
+  - Yeah, baby, that hurt a lot... [-10 HP]
+  answer_options:
+  - answers:
+    - corelated_dialogue_line_ID: 0
+      answer_text: Observe it
+      next_line_index: 3
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 0
+      answer_text: Punch it
+      next_line_index: 4
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - Cylinder
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 3
+      answer_text: Look at its top
+      next_line_index: 6
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 6
+      answer_text: Spill a health potion
+      next_line_index: 5
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 5
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 1
+      answ_item_to_interact: {fileID: 11400000, guid: f079989863141fa408ed595fd1822224,
+        type: 2}
+      answ_added_or_removed_item_amount: -1
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 0
+      answer_text: Give it some blood[-30 HP]
+      next_line_index: 5
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: -30
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 0
+      answer_text: '[NRD] Pray'
+      next_line_index: 7
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_mental: {fileID: 11400000, guid: e244eee21bc3c5f4ea1cb34e63ce7061, type: 2}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 7
+      answer_text: Yeah
+      next_line_index: 5
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 4
+      answer_text: Okay
+      next_line_index: 3
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue: []
+      needed_item_ID: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0

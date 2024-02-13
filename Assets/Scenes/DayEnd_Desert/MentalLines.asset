@@ -1,0 +1,1782 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cdf02d848976f641bfa615f51198c0c, type: 3}
+  m_Name: MentalLines
+  m_EditorClassIdentifier: 
+  dialogue_lines:
+  - '[SADIST] After hurting as many living things as you have you started to feel
+    weary of the guilt that followed. After weariness came acceptance. And then you
+    realized that you kinda like it. [-10 HP, +5 HP on attack]'
+  - '[HINIE] Well, pain is just something that we have to live with. Whether we take
+    or deliver it. It''s okay to have some sort of attitude towards it. Just don''t
+    take yours  outside of battles. I''ve been hurt just enough.'
+  - '[OBSERVER] The world around you seem like a total mess when you''re in the middle
+    of the action. But everything starts to make sense as soon as try to think: what
+    does it all look like from the side? '
+  - '[OBSERVER] A couple of psychos sitting by a campfire, talking about how crazy
+    they both are. You don''t look like heroes, brave warriors. So, maybe that''s
+    not what you are.'
+  - '[OBSERVER] I''m just a collective mind of your five senses. I think what I percieve. '
+  - '[OBSERVER] Maybe I am. I do believe that things are only what they look like. '
+  - '[ALCOHOLIC] All of the sudden you start to feel the pressure of the world weighing
+    down on you. It is unbearable. '
+  - '[ALCOHOLIC] There''s nothing that you can do to make it go away. Nothing within
+    yourself, at least. But there might be one way...'
+  - '[ALCOHOLIC] You''ve probably seen some of these potion bottles. Probably have
+    even gotten to drink one. The taste and smell of whatever was inside really didn''t
+    seem too appealing. But just for a moment you''ve felt a bit tipsy. And just for
+    a moment the pain went away. What if we drink more?'
+  - '[HINIE] Uh... Why though? Don''t tell me you wanna try to get drunk on these
+    things.'
+  - '[HINIE] Okay, there''s some explaining to do, I guess. You see, we''re navians,
+    and that means we''re almost completely immune to most poisons out there. Alcohol
+    is basically a poison too, so it doesn''t really affect us. You just sober up
+    immediately. '
+  - '[HINIE] Some of our alchemists actually manged to mix up a solution that kills
+    some parts of your brain, and while they''re growing back up, you can experience
+    what it feels like to be drunk. I''ll get you a bottle when we get out of the
+    desert, don''t worry.
+
+    Until then don''t just drink our poisons willy-nilly, okay?'
+  - '[RUNNER] There''s one peculiar thing that you''ve noticed. With all the weapons,
+    armor and potions that you have there''s still only one thing that really insures
+    your survival.'
+  - '[RUNNER] Your own legs. Instead of just taking hits in hopes that none of them
+    turns fatal, why not just try to run away?
+
+    It''s survival of the fastest after all.'
+  - '[ADVENTURER] Hey, do you feel it?'
+  - '[ADVENTURER] The excitement, the thrill of seeing new places, meeting new people.
+    You''re not the type of guy who would just sit around doing nothing. You need
+    to change your surroundings, always experiense something new. '
+  - '[ADVENTURER] You''ve always had a choice. And so far you''ve chosen the adventure.
+    You could have killed the girl, you could have just left her at any point by now.
+    You also could have just keeled over and died. But all of that is just too boring
+    for you.
+
+    So adventure up, big guy!'
+  - '[AVENGER] A good world is a fair world.'
+  - '[AVENGER] And in a fair world everybody always pays for what they do. '
+  - '[AVENGER] So this will only be fair of you to return all the pain you''ve experienced
+    to those who''ve caused it. You will return all the pain, nothing more, nothing
+    less. Make everybody understand that this world is indeed fair.'
+  - '[ANTICIPATOR] After getting ambushed by ballcrabs a couple of times now you''ve
+    started to wonder if it''s even worth it not to expect another ambush at any place
+    and any time.'
+  - '[ANTICIPATOR] Yeah. But just think about it. If you live your life always expecting
+    some bullshit to happen you always have better chances dealing with it. '
+  - "[ANTICIPATOR] Yes, it's not about being happy. It's about being safe, which is
+    a bit of a higher priority right now. \nSo, bad things will happen to you. It
+    will suck. But you will be prepared, because you always expect the worst."
+  - '[PANICKING] You know what, screw the calm and steady approach. You can operate
+    so much better when you give into the panick and go apeshit. '
+  - '[PANICKING] Yes, damn it. Let''s say, you get hit by an enemy. Are you really
+    gonna waste a hell lot of time just standing still and trying to collect yourself?
+    Or will you come swinging at your enemy right away until they stop moving? '
+  - '[PANICKING] You don''t. You''re not a damn emotionless statue. Go crazy, panic
+    all you want. It''s much more effective than you think.'
+  - '[NERD] All of the sudden you realize that your knowledge of the surrounding world
+    is extremely limited. There need to be more facts for you to keep in your mind!'
+  - '[NERD] You start asking Hinie everything that your mind can come across. She
+    tells you all she knows about the cults of Alia, Gartek and Terus, everything
+    she knows about Aliteria''s writing systems and every tit bit to be known about
+    local animals. Yeah, that feels great.'
+  - '[NERD] Oh, no. You need to actually think if you want to know how things work.
+    It''s not what Im here for.'
+  - '[NERD] I''m here, so you can gather sweet sweet facts.
+
+    Hinie tells you a lot of things that she knows, but as soon as she tries to explain
+    something in greater detail, you interrupt her and ask about something completely
+    unrelated.
+
+    Knowing deeper is a waste of time anyway. We just need to know more!'
+  - '[NERD] No, it isn''t. It''s gotten much broader. If you need to know things deeper,
+    you''ll always find a way to. You''ll thank me later. '
+  - '[CARELESS] You know what, screw it. '
+  - '[CARELESS] If we want to get somewhere, we need to stop worrying about bullshit.
+    Save up some of these nerves, man. '
+  - "[CARELESS] You know, like, the things that you worry about. \nLike... Eh, whatever.
+    Don't care to stand my point.\nAnd so shouldn't you."
+  - '[EMPIRICIST] Well, these ballcrabs surely are dangerous.'
+  - '[EMPIRICIST] We know that for sure, because they bite us hard. We also know that
+    our companion Hinie probably won''t leave us if we''re surrounded by enemies.'
+  - '[EMPIRICIST] I know it, because we''ve been in such situation a couple of times
+    by now. We have experienced it. And if we have experienced it, that means it''s
+    true.
+
+'
+  - '[HINIE] You know. It''s probably the best idea to be getting as far away from
+    enemies as possible hitting them only once in a while. That way they''re gonna
+    get tired quicker.'
+  - '[STUBBORN] Well, as the matter of fact constantly moving away from enemies in
+    an enclosed environment would only raise the possibility of you getting cornered
+    by multiple attackers. As soon as they gain up on you so that you can reach them
+    it''s just the matter of whether you can finish them off quicker than they can
+    kill you. Running away would only prolongen this exchange, but it would not be
+    the deciding factor. It gives next to no tactical advantage since you still need
+    to turn toward them in order to deal damage.
+
+    You say all of that to Hinie. It''s important.'
+  - '[HINIE] O... kay, dude... You might be right on this one.'
+  - '[STUBBORN] Of course you are. You are always right. And you will not let anyone
+    doubt your ways. '
+  - '[EXPLORER] Hey, there''ve been quite a lot of places you''ve seen out there by
+    now. Have you added them to your mental map?'
+  - '[EXPLORER] What? Are you telling me you don''t have a mental map? That''s ridiculous!
+    How are you supposed to navigate without it?'
+  - '[EXPLORER] Since you don''t know how to read, write or even draw simple pictures,
+    the only way for you to somehow systemize your surroundings is to create a mental
+    map. You just try to memorize how different places are interconnected with one
+    another. That would be the only way for you not to get lost. '
+  - '[EXPLORER] Yes, but what if she dies or flat out abandons you? You need to have
+    at least a slightest idea of where you are. It''s not just about sightseeing,
+    it''s about survival after all.'
+  - '[PERFECTIONIST] You know, in that fight back then you could''ve finished the
+    whole thing without taking any damage. '
+  - '[PERFECTIONIST] Yeah, that''s good. But it can always be better. So why don''t
+    you go ahead and try to do your best?'
+  - '[PERFECTIONIST] Because it will feel really good. Trust me, you''ll see. '
+  - '[PERFECTIONIST] Oh, that would just be anoter reason for you to think about how
+    great it would be, if didn''t mess up. So that next time you do everything right.
+    Dummy.'
+  - '[PACIFIST] You''ve seen and committed a lot of violence since your birth a couple
+    of days ago. The weight of guilt following you stresses you a lot. '
+  - '[HINIE] Rejecting violence is always a respectful idea. But considering where
+    we are it''s not really viable, I''m afraid. '
+  - '[HINIE] You see, it takes a lot of power of the mind to appreciate pacifism and
+    not to attack somebody who doesn''t attack you. Wild animals, monsters and some
+    of our dumbass siblings can and will attack.'
+  - '[HINIE] Sure does. Worst of all, a lot of these guys won''t stop it until they''re
+    dead. And if you don''t fight back, you or I might get killed. I respect your
+    pacifism, but if some of us gets hurt because of it, you''ll need to rethink it.'
+  - '[STRATEGIST] Hey, I think we can actually go through all the fights we get in
+    without getting ourselves or our sister hurt. '
+  - '[STRATEGIST] I''m sure. And if we show ourselves as people who can lead the battles
+    flawlessly, we''ll gain enough respect, so that we''ll be able to start our own
+    little army. And that, in turn, will lead us a bit closer to becoming the rulers
+    of whole Aliteria.
+
+    But yeah, let''s start with not getting hit by these little ballcrabs first.'
+  - '[STRATEGIST] That''s okay, really. But that still means, you''ll have to keep
+    the both of you safe. Because when this adventure ends, you''ll still need to
+    live on somehow. You and Hinie can go to the jungle, build a hut there and start
+    your own little household growing some crops. A calm and peaceful life.
+
+    Until then it''s a lot of battles to be fought, so keep the fighting clean and
+    strategized. '
+  - '[UNDERSTANDING] The sound of pieces falling in their places clicks inside of
+    your spiked skull. It''s a great feeling. You understand the meaning of things
+    happening to you now.'
+  - '[UNDERSTANDING] You cannot really find the meaning with your mind and express
+    it. It''s just a feeling. A feeling that things make sense. All the things that
+    are now. But the future will bring more things that don''t make sense. And so
+    you''ll have to find this sense of meaning again. Until then, enjoy it while you
+    have it. '
+  - '[SELF-CONTROLLED] Hey, what are you doing?'
+  - '[SELF-CONTROLLED] You keep adding a lot of new traits to your character. Almost
+    uncontrollably, too. Do you know what it might cause? '
+  - '[SELF-CONTROLLED] A very serious internal conflict. So serious in fact that it
+    can lead to a total fragmentation of your personality. '
+  - '[SELF-CONTROLLED] It can. If you determine yourself as a cold blooded killer
+    and as a hug loving pacifist at the same time, something in your mind will not
+    add up. You might become very unpredictable. So much so that you might even lose
+    control over yourself. So please don''t add traits willy-nilly. I''ll help you
+    with that, don''t worry. '
+  - '[KAMIKAZE] There''s never a guarantee, that you''ll walk out of a battlefield
+    alive. So let''s make sure that the same applies for anyone who chooses to fight
+    us. Take them with you if you ever fall down. '
+  - '[RAGER] Whenever you feel rage filling you up, gather it, focus it, direct and
+    unleash it on whatever deserves to suffer from it. Don''t just let it eat you
+    from inside up. '
+  answer_options:
+  - answers:
+    - corelated_dialogue_line_ID: 0
+      answer_text: Tell Hinie about it
+      next_line_index: 1
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 1
+      answer_text: Continue
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 2
+      answer_text: So, what's it like?
+      next_line_index: 3
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 3
+      answer_text: Gee, screw you
+      next_line_index: 4
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 3
+      answer_text: Maybe you're right
+      next_line_index: 5
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 4
+      answer_text: Continue
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 5
+      answer_text: Continue
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 6
+      answer_text: Ugh... It hurts. What do I do?
+      next_line_index: 7
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 7
+      answer_text: 'What is it? '
+      next_line_index: 8
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 8
+      answer_text: '"Hinie, I want to drink as many potions as possible"'
+      next_line_index: 9
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 9
+      answer_text: '"Why not?"'
+      next_line_index: 10
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 10
+      answer_text: '"Aww..."'
+      next_line_index: 11
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 11
+      answer_text: '"Okay, thanks"'
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 12
+      answer_text: What is it?
+      next_line_index: 13
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 13
+      answer_text: Okay, I'll try it
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 14
+      answer_text: Feel what?
+      next_line_index: 15
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 15
+      answer_text: I... kinda have no choise
+      next_line_index: 16
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 16
+      answer_text: O...kay then
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 17
+      answer_text: Sure is
+      next_line_index: 18
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 18
+      answer_text: Sounds reasonable
+      next_line_index: 19
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 19
+      answer_text: Okay, I will
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 20
+      answer_text: It's kinda sad...
+      next_line_index: 21
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 21
+      answer_text: Well...
+      next_line_index: 22
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 22
+      answer_text: Thanks... I guess
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 23
+      answer_text: Uhg, are you sure?
+      next_line_index: 24
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 24
+      answer_text: I don't really have a say in this, do I?
+      next_line_index: 25
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 25
+      answer_text: As you say, psycho
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 26
+      answer_text: '"Hinie?.."'
+      next_line_index: 27
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 27
+      answer_text: Nice, at last I know how things work now!
+      next_line_index: 28
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 28
+      answer_text: What are you here for then?
+      next_line_index: 29
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 29
+      answer_text: Isn't our knowledge still limited?
+      next_line_index: 30
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 30
+      answer_text: Thanks... I guess
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 31
+      answer_text: Huh?
+      next_line_index: 32
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 32
+      answer_text: What do you mean by "bullshit"?
+      next_line_index: 33
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 33
+      answer_text: Great to have you with us now...
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 34
+      answer_text: Uh... No shit, dude...
+      next_line_index: 35
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 35
+      answer_text: How do you know that?
+      next_line_index: 36
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 36
+      answer_text: Makes sence, I guess
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 37
+      answer_text: '"Well..."'
+      next_line_index: 38
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 38
+      answer_text: Hell yeah
+      next_line_index: 39
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 39
+      answer_text: Continue
+      next_line_index: 40
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 40
+      answer_text: Oh yeah
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 41
+      answer_text: My what?
+      next_line_index: 42
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 42
+      answer_text: What's a mental map?
+      next_line_index: 43
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 43
+      answer_text: But I have Hinie, she navigates pretty okay
+      next_line_index: 44
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 44
+      answer_text: Got it
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 45
+      answer_text: Yeah, but I survived it anyway
+      next_line_index: 46
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 46
+      answer_text: Why would I?
+      next_line_index: 47
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 47
+      answer_text: But what if I mess someting up?
+      next_line_index: 48
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 48
+      answer_text: I don't think I like you very much...
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 49
+      answer_text: '"Hinie, I don''t want to hurt living things"'
+      next_line_index: 50
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 50
+      answer_text: '"Why?"'
+      next_line_index: 51
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 51
+      answer_text: '"That sucks"'
+      next_line_index: 52
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 52
+      answer_text: '"Understood"'
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 53
+      answer_text: Are you sure?
+      next_line_index: 54
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+    - corelated_dialogue_line_ID: 53
+      answer_text: I'm not all into fighting, to be honest
+      next_line_index: 55
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 54
+      answer_text: Okay, I'll try
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 55
+      answer_text: Sounds alright
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 56
+      answer_text: 'And what''s this meaning? '
+      next_line_index: 57
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 57
+      answer_text: Just give me my LVL-up already
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 58
+      answer_text: What am I doing?
+      next_line_index: 59
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 59
+      answer_text: What might it cause?
+      next_line_index: 60
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 60
+      answer_text: It can't be that bad
+      next_line_index: 61
+      path_proceed: 0
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 61
+      answer_text: Fine, dude
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 62
+      answer_text: Jeez, okay...
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0
+  - answers:
+    - corelated_dialogue_line_ID: 63
+      answer_text: You got it, man
+      next_line_index: 0
+      path_proceed: 1
+      opens_exit: 0
+      loads_level: 0
+      gives_mental_choose: 0
+      level_name: 
+      launches_custom_code: 0
+      objects_launched_from_dialogue:
+      - 
+      needed_item_ID: 0
+      needed_item_ammount: 0
+      needed_mental: {fileID: 0}
+      needed_attribute: 0
+      needed_attribute_value: 0
+      this_stat_influence: 0
+      this_stat_influence_value: 0
+      has_item_interaction: 0
+      answ_item_to_interact: {fileID: 0}
+      answ_added_or_removed_item_amount: 0
+      answ_mental_to_interact: {fileID: 0}
+      dialogue_end: 0

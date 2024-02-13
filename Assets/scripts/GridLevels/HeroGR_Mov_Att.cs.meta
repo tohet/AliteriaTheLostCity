@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: afc3885c4d6f5444fb88a557c5e39409
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - turnManager: {instanceID: 0}
+  - currentTile: {instanceID: 0}
+  - actualTargetTile: {instanceID: 0}
+  - ap_display: {instanceID: 0}
+  - thisHeroStats: {instanceID: 0}
+  - health_potion: {fileID: 11400000, guid: f079989863141fa408ed595fd1822224, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

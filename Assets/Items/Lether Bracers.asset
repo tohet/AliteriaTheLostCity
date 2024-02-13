@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d2ab4a48be8f9b4a82968c16d4b5aa4, type: 3}
+  m_Name: Lether Bracers
+  m_EditorClassIdentifier: 
+  ui_display: {fileID: 4496002825605101114, guid: d07b803c54ae9fb4ebfc1e8a13b12f4c,
+    type: 3}
+  stackable: 0
+  is_used_in_battle: 0
+  is_used_in_explore: 0
+  type: 6
+  discription: '[Gloves]
+
+    +1 AP
+
+    These bracers have numerours markings of teeth and claws on them. Yet they still
+    hold up quite well.'
+  data:
+    name: 
+    id: 2
+    buffs:
+    - attribute: 2
+      value: 5
+    - attribute: 1
+      value: 1
+    object_mental_act: {fileID: 0}
+  heal_value: 0
+  resote_AP_value: 0
+  attack_bonus: 0
+  defence_bonus: 5
